@@ -9,6 +9,18 @@
       </tags>
   </entry>
   <entry>
+    <title>About Me</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
+</blockquote>
+
+<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:L.Chen.Bi4ted@Gmail.Com">L.Chen.Bi4ted@Gmail.Com</a></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -25,17 +37,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>About Me</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
-</blockquote>
-
-<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:L.Chen.Bi4ted@Gmail.Com">L.Chen.Bi4ted@Gmail.Com</a></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
   </entry>
 </search>
