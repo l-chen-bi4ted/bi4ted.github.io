@@ -19,6 +19,48 @@
 ]]></content>
   </entry>
   <entry>
+    <title>About Copyright</title>
+    <url>/2020/about-copyright/</url>
+    <content><![CDATA[<blockquote><p><strong>版权声明</strong>： 除非本文有注明出处，否则内容转载请注明来源 <a href="https://l-chen-bi4ted.github.io">https://l-chen-bi4ted.github.io</a></p>
+</blockquote>
+
+<h3 id="一些不太擅长的事"><a href="#一些不太擅长的事" class="headerlink" title="一些不太擅长的事"></a>一些不太擅长的事</h3><p>最近在试着使用hexo建设博客，期间使用到了一个很简洁、漂亮的主题 - ayer。</p>
+<p>跟着其<a href="https://shen-yu.gitee.io/2019/ayer/" target="_blank" rel="noopener">ayer中文说明</a>一步步进行了相应的配置，但在配置<code>hexo/themes/ayer/languages/zh-CN.yml</code>中的版权声明信息时，碰到了些糟心的事情。</p>
+<p>问题起源自然是我不熟悉hexo其构成以及对语言的不了解造成的。</p>
+<p>从一开始，我自认为hexo是支持markdown解析的，故在<code>copyright_content:</code>这一项中使用了<code>[]()</code>来做超链接，然而，它全部以字符串形式输出了。</p>
+<p>之后又尝试了其他的方法，如HTML:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"link"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>文章中引用链接:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% link text url [external] [title] %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这些都没有效果，同时给我了一串错误代码。<br>这串错误代码倒是指引了具体该到哪儿去解决问题。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;hexo&#x2F;themes&#x2F;ayer&#x2F;layout&#x2F;_partial&#x2F;article.ejs:54</span><br><span class="line">    52|               &lt;i class&#x3D;&quot;ri-copyright-line&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">    53|               &lt;strong&gt;&lt;%&#x3D; __(&#39;post.copyright_title&#39;) %&gt;： &lt;&#x2F;strong&gt;</span><br><span class="line"> &gt;&gt; 54|               &lt;%&#x3D; __(&#39;post.copyright_content&#39;) %&gt;</span><br><span class="line">    55|             &lt;&#x2F;li&gt;</span><br><span class="line">    56|           &lt;&#x2F;ul&gt;</span><br><span class="line">    57|         &lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>然后就是下面的一些备注，这一时半会儿是搞不定了。</p>
+<h3 id="感觉自己的行为像白痴一样，真的浪费了不少时间"><a href="#感觉自己的行为像白痴一样，真的浪费了不少时间" class="headerlink" title="感觉自己的行为像白痴一样，真的浪费了不少时间"></a>感觉自己的行为像白痴一样，真的浪费了不少时间</h3><p>理想状态的版权声明：</p>
+<blockquote><p><strong>版权声明</strong>: 本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="noopener">CC BY 4.0</a> 许可协议。转载请注明来源 <a href="https://l-chen-bi4ted.github.io">BI4TED</a> !</p>
+</blockquote>
+
+
+<p>默认的版权声明：</p>
+<blockquote><p><strong>copyright_content</strong>:<br>Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.</p>
+</blockquote>
+
+<p>现在的版权声明：</p>
+<blockquote><p><strong>版权声明</strong>： 除非本文有注明出处，否则内容转载请注明来源 <a href="https://l-chen-bi4ted.github.io">https://l-chen-bi4ted.github.io</a></p>
+</blockquote>
+
+<hr>
+<h3 id="2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了"><a href="#2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了" class="headerlink" title="2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了"></a>2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了</h3><p>之前试着用hexo-blog-encrypt对文章内容加密，表现良好。</p>
+<blockquote><hr>
+<p>title: About Copyright<br>date: 2020-04-30 12:36:36<br>update: 2020-05-11 01:12:25<br>tags: Notes<br>password: misaka3misaka</p>
+<hr>
+</blockquote>]]></content>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About Me</title>
     <url>/2020/about/</url>
     <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
