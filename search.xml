@@ -43,6 +43,18 @@
       </tags>
   </entry>
   <entry>
+    <title>About Me</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
+</blockquote>
+
+<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
+]]></content>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>termux中自己常用的可执行程序备忘</title>
     <url>/2020/termux-console-command/</url>
     <content><![CDATA[<p>本文为学习使用<code>Termux</code>过程中，自己常用的可执行程序指令的备忘记录。</p>
@@ -98,18 +110,6 @@
 
 
 <p>以上内容很多部分参考了<a href="https://www.sqlsec.com/" target="_blank" rel="noopener">国光</a>老师的«Termux 高级终端安装使用配置教程»<br><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a><br>信息量非常大，受益匪浅。感谢国光老师。</p>
-]]></content>
-      <tags>
-        <tag>notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>About Me</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
-</blockquote>
-
-<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
 ]]></content>
       <tags>
         <tag>Notes</tag>
