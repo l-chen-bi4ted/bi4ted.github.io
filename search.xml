@@ -55,24 +55,12 @@
       </tags>
   </entry>
   <entry>
-    <title>About Me</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
-</blockquote>
-
-<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
-]]></content>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>termux中自己常用的可执行程序备忘</title>
+    <title>Termux中自己常用的工具指令备忘</title>
     <url>/2020/termux-console-command/</url>
-    <content><![CDATA[<p>本文为学习使用<code>Termux</code>过程中，自己常用的可执行程序指令的备忘记录。</p>
+    <content><![CDATA[<p>本文为自己在学习使用<code>Termux</code> 的过程中，经常用到的一些可执行程序、工具、指令的备忘记录。</p>
  <a id="more"></a>
 
-
+<p>没有系统的学习过Linux的缘故，我不确定它们是否应该称为可执行程序，若有误还望指正。</p>
 <h3 id="Root-权限（模拟、真实）"><a href="#Root-权限（模拟、真实）" class="headerlink" title="Root 权限（模拟、真实）"></a>Root 权限（模拟、真实）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">termux-chroot</span><br><span class="line">tsu</span><br></pre></td></tr></table></figure>
 
 <h3 id="kill-杀进程"><a href="#kill-杀进程" class="headerlink" title="kill 杀进程"></a>kill 杀进程</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">kill -9 &#96;pgrep mysql&#96;</span><br><span class="line">pkill nginx</span><br></pre></td></tr></table></figure>
@@ -124,11 +112,23 @@
 <h3 id="Linux下通过sha256sum校验文件完整性"><a href="#Linux下通过sha256sum校验文件完整性" class="headerlink" title="Linux下通过sha256sum校验文件完整性"></a>Linux下通过sha256sum校验文件完整性</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sha256sum -c &lt;(grep manjaro-kde-20.0-200426-linux56.iso manjaro-kde-20.0-200426-linux56.iso.sha256)&#96;</span><br></pre></td></tr></table></figure>
 
 
-<p>以上内容很多部分参考了<a href="https://www.sqlsec.com/" target="_blank" rel="noopener"><strong>国光</strong></a>老师的«Termux 高级终端安装使用配置教程»<br><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a><br>文章内容信息量非常大，受益匪浅。感谢国光老师。</p>
+<p>以上内容的整理，参考了<a href="https://www.sqlsec.com/" target="_blank" rel="noopener"><strong>国光</strong></a>老师的«Termux 高级终端安装使用配置教程»<br><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a><br>文章内容信息量非常大，受益匪浅。感谢国光老师。</p>
 ]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About Me</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
+</blockquote>
+
+<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
+]]></content>
       <tags>
         <tag>Notes</tag>
       </tags>
