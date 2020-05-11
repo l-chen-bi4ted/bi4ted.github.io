@@ -33,44 +33,21 @@
 </blockquote>
 
 <hr>
-<h3 id="2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了"><a href="#2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了" class="headerlink" title="2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了"></a>2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了</h3><p>之前试着用hexo-blog-encrypt对文章内容加密，表现良好。</p>
+<h3 id="2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了"><a href="#2020年5月11日更新，把主题换成了Next-Muse，看起来更直观了" class="headerlink" title="2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了"></a>2020年5月11日更新，把主题换成了Next.Muse，看起来更直观了</h3><p>附：<br><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/README.md" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a></p>
+<p><a href="https://notes.iissnan.com/2015/something-about-next/" target="_blank" rel="noopener">«聊聊 NexT 主题»</a></p>
+<p><a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees" target="_blank" rel="noopener">«Considerations for licensors and licensees»</a></p>
+<p>这些，它们给了我很多帮助，感谢作者。</p>
+<h3 id="文章内容加密"><a href="#文章内容加密" class="headerlink" title="文章内容加密"></a>文章内容加密</h3><p>之前还试着用hexo-blog-encrypt对文章内容进行加密，表现良好。<br>安装好组件后只要像这样在文章头部添加<code>password</code>字段内容就可以了。</p>
 <blockquote><hr>
-<p>title: About Copyright<br>date: 2020-04-30 12:36:36<br>update: 2020-05-11 01:12:25<br>tags: Notes<br>password: misaka3misaka</p>
+<p>title: About Copyright<br>date: 2020-04-30 12:36:36<br>update: 2020-05-11 01:12:25<br>tags: Notes<br>categories: 学习笔记<br>password: misaka3misaka</p>
 <hr>
-</blockquote>]]></content>
+</blockquote>
+
+<p><del>其实因为自己写的很随性，太羞耻了。</del></p>
+]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>About Me</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
-</blockquote>
-
-<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
-]]></content>
       <tags>
         <tag>Notes</tag>
       </tags>
@@ -135,6 +112,36 @@
       <categories>
         <category>学习笔记</category>
       </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>About Me</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<blockquote><p>A Hamer, live in Suzhou, China.</p>
+</blockquote>
+
+<p>Callsign: BI4TED<br>GitHub: L-Chen-Bi4ted<br>Keybase: <a href="https://keybase.io/bi4ted" target="_blank" rel="noopener">keybase.io/bi4ted</a><br>PGP: 0A95 2CEB 45C7 811D<br>Wechat: ruka_u<br>Mail: <a href="mailto:l_chen_bi4ted@gmail.com">L.Chen.Bi4ted@Gmail.Com</a></p>
+]]></content>
       <tags>
         <tag>Notes</tag>
       </tags>
